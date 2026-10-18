@@ -19,7 +19,7 @@ RGB color detection library using phototransistors with manual RGB cube calibrat
 | 4    | Yellow | `#FFFF00` |
 | 5    | Red    | `#FF0000` |
 | 6    | White  | `#FFFFFF` |
-| 7    | Silver | `FFFFFF` |
+| 7    | Silver | `A value Higher than white` |
 | 8    | unknown | - |
 
 Silver is simply a more reflexive white.
