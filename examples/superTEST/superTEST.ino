@@ -106,8 +106,9 @@ void loop() {
 
   if (modoAtual == "intensidade") {
     Serial.print("Light Intensity: ");
-    fixPrint(sensor.darkness());
-    Serial.println(sensor.darkness());
+    int lightIntensity = sensor.darkness();
+    fixPrint(lightIntensity);
+    Serial.println(lightIntensity);
   } 
   
   
@@ -121,7 +122,7 @@ void loop() {
       sensor.getColor();
       sensor.rgbToHSB(sensor.R_raw, sensor.G_raw, sensor.B_raw);
       byte c = colorDetection(sensor.hue, sensor.saturation, sensor.brightness);
-      if (c >= 0 && c < 8) count[c]++;
+      if (c >= 0 && c <= 8) count[c]++;
       readings++;
     }
     
