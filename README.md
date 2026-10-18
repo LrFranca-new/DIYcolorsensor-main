@@ -1,5 +1,5 @@
 # DIY Color Sensor Library
-![Version](https://img.shields.io/badge/Version-1.6.9-blue) ![Arduino](https://img.shields.io/badge/Arduino-Compatible-brightgreen) ![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-2.0.0-blue) ![Arduino](https://img.shields.io/badge/Arduino-Compatible-brightgreen) ![License](https://img.shields.io/badge/License-MIT-green)
 
 RGB color detection library using phototransistors with manual RGB cube calibration and HSB conversion.
 
